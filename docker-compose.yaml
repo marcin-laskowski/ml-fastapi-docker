@@ -1,0 +1,7 @@
+version: '3'
+services:
+
+  flask_classifier:
+    build: .
+    ports:
+      - 80:80
